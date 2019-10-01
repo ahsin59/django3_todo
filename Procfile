@@ -1,0 +1,2 @@
+web:gunicorn django_todo.wsgi:application
+web: python3 manage.py runserver 0.0.0.0:8080
