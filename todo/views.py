@@ -3,6 +3,7 @@ from .models import Item
 from .forms import ItemForm
 
 
+
 # Create your views here.
 def get_todo_list(request):
     results = Item.objects.all()
@@ -38,3 +39,4 @@ def toggle_status(request, id):
     item.done = not item.done
     item.save()
     return redirect(get_todo_list)
+    
