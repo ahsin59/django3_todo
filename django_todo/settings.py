@@ -30,7 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 's&82ekhy7kvp&d1o4ahggl(#3g$ly70*uaoau
 DEBUG = True
 
 ALLOWED_HOSTS = ['6bb97343654b4f3690143a6fca9d68b2.vfs.cloud9.us-east-1.amazonaws.com',
-               'simple-django3-todo.herokuapp.com']
+                 'https://simple-django3-todo.herokuapp.com'
+               ]
 
 
 # Application definition
