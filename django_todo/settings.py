@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 's&82ekhy7kvp&d1o4ahggl(#3g$ly70*uaoau
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('AWS_Cloud9_HOSTNAME').
+ALLOWED_HOSTS =  [os.environ.get('AWS_Cloud9_HOSTNAME').
                  os.environ.get('HOSTNAME')]
 
 
